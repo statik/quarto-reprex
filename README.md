@@ -6,3 +6,5 @@ examples are stored in subdirectories
     quarto preview presentation/presentation.qmd
 
 this should open a browser tab
+
+    head --bytes=80 presentation/presentation_files/libs/revealjs/dist/theme/quarto.css
