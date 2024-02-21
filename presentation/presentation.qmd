@@ -24,46 +24,7 @@ This has `code` with a light background.
 
 A [hyperlink](https://posit.co)
 
-```{r}
-library(ggplot2)
-
-mtcars |> 
-  ggplot(aes(x = disp, y = mpg)) +
-  geom_point()
-```
-
-## Slide dark {background-color="#17212B"}
-
-This has `code` with a dark background.
-
-A [hyperlink](https://posit.co)
-
-
-```{r}
-#| echo: fenced
-#| eval: false
-library(ggplot2)
-
-mtcars |> 
-  ggplot(aes(x = disp, y = mpg)) +
-  geom_point()
-```
-
-## Slide Layout {background-image="_extensions/positslides/assets/backgrounds/toc-light.png" background-size="contain"}
-
-This has `code` with a light background.
-
-A [hyperlink](https://posit.co)
-
-```{r}
-library(ggplot2)
-
-mtcars |> 
-  ggplot(aes(x = disp, y = mpg)) +
-  geom_point()
-```
-
-## {background-image="_extensions/positslides/assets/backgrounds/30-70-dark.png" background-size="contain"}
+## {background-image="_extensions/jthomasmock/positslides/assets/backgrounds/30-70-dark.png" background-size="contain"}
 
 <h2 style="position: absolute; top: 25px; left: 525px;">Layout image Background</h2>
 
