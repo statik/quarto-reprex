@@ -19,6 +19,9 @@ jobs:
         with:
           version: 1.5.16
 
+      - name: Quarto check
+        run: quarto check
+      
       - name: Set up D2
         run: curl -fsSL https://d2lang.com/install.sh | sh -s -- --version="v0.6.0" --method=standalone --prefix="$(pwd)/.local"
 
