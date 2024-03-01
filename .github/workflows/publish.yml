@@ -17,7 +17,7 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: 1.5.16
+          version: 1.4.550
 
       - name: Quarto check
         run: quarto check
